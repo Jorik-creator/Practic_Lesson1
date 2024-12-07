@@ -21,7 +21,6 @@ public class Product {
         return null;
     }
 
-    // Пошук товару за ID
     public static Product findProductById(List<Product> products, int id) { // пошук продукта за ID
         for (Product product : products) {
             if (product.getId() == id) {

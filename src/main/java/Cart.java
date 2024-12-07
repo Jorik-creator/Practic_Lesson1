@@ -7,7 +7,7 @@ import java.util.List;
 public class Cart {
     private List<Product> products = new ArrayList<>();
 
-    // Додати товар до кошикаа
+    // Додати товар до кошика
     public void addProduct(Product product) {
         products.add(product);
     }

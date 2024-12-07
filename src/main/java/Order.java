@@ -8,7 +8,7 @@ public class Order {
     private static List<Order> orderHistory = new ArrayList<>();
     private List<Product> products;
 
-    // Конструктор створення замовлення на основі кошикаа
+    // Конструктор створення замовлення на основі кошика
     public Order(Cart cart) {
         this.products = new ArrayList<>(cart.getProducts());
         orderHistory.add(this);

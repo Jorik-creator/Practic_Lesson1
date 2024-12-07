@@ -125,7 +125,7 @@ public class Main {
                     }
                     break;
                 case 8  :
-                    for (Order order : Order.displayOrderHistory()) { // Виводимо історію замовлень
+                    for (Order order : Order.displayOrderHistory()) { // Вивtеденняісторії замовлень
                         System.out.println(order);
                     }
                     break;
